@@ -1,0 +1,25 @@
+{
+  "name": "go-test-coverage-summary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && ./node_modules/.bin/ncc build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindluni/go-test-coverage-summary.git"
+  },
+  "author": "Brett Logan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lindluni/go-test-coverage-summary/issues"
+  },
+  "homepage": "https://github.com/lindluni/go-test-coverage-summary#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.8.0"
+  }
+}
